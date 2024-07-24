@@ -1,5 +1,5 @@
 public class Main {
-    public staic void main(String[] args) {
+    public static void main(String[] args) {
         
         DistribuicaoNormal distribuicaoNormal = new DistribuicaoNormal(0, 1);
         DistribuicaoUniforme distribuicaoUniforme = new DistribuicaoUniforme(0, 1);

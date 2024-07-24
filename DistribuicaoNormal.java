@@ -14,7 +14,7 @@ public class DistribuicaoNormal extends Distribuicao{
     }
 
     @Override
-    double Calcular(Double x) {
+    public double Calcular(double x) {
         //super.Calcular(Double x);
         double valorDistrib = Math.pow(2.71828, partUm(x))/desvPadrao * Math.sqrt( 2 * 3.14159);
         return valorDistrib;

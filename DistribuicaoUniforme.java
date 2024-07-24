@@ -7,7 +7,8 @@ public class DistribuicaoUniforme extends Distribuicao{
         a = x; b = y;
     }
 
-    double Calcular(Double x){
+    @Override
+    public double Calcular(double x){
         // usando a função calcular para retornar o valor para a distribuição
         double resultado;
         if ((a <= x) && ( x <=b)){
