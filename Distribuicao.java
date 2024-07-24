@@ -1,3 +1,3 @@
-public class Distribuicao {
-    void Calcular(){};
+public abstract class Distribuicao {
+    public abstract double Calcular(double x);
 }
