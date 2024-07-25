@@ -9,7 +9,7 @@ public class DistribuicaoExponencial extends Distribuicao{
     @Override
     public double Calcular(double x) {
         //super.Calcular(Double x);
-        double valorDistrib = y * Math.pow(2.71828, ((-1)*x*y));
+        double valorDistrib = y * Math.exp((-1)*x*y);
         return valorDistrib;
     }
 

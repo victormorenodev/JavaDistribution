@@ -18,7 +18,7 @@ public class DistribuicaoPoisson extends Distribuicao{
     @Override
     public double Calcular(double x) {
         //super.Calcular(Double x);
-        double valorDistrib = (Math.pow(2.71828, ((-1)*y)) * (Math.pow(y,x))) / Fatorial(x);
+        double valorDistrib = (Math.exp((-1)*y)) * (Math.pow(y,x)) / Fatorial(x);
         return valorDistrib;
     }
 }

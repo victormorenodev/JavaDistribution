@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Distribuição Normal:");
         estatisticasNormal.imprimirValoresGerados(5);
-        /*estatisticasNormal.imprimirMedia();
+        estatisticasNormal.imprimirMedia();
         estatisticasNormal.imprimirVariancia();
 
         System.out.println("\nDistribuição Uniforme:");
@@ -29,7 +29,7 @@ public class Main {
         System.out.println("\nDistribuição Poisson:");
         estatisticasPoisson.imprimirValoresGerados(5);
         estatisticasPoisson.imprimirMedia();
-        estatisticasPoisson.imprimirVariancia();*/
+        estatisticasPoisson.imprimirVariancia();
 
     }
 }
