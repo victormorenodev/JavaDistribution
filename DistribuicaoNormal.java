@@ -9,7 +9,7 @@ public class DistribuicaoNormal extends Distribuicao{
     }
 
     double partUm(double x){
-        double resultado = Math.pow((x - m)/desvPadrao, 2) * 1/2;
+        double resultado = Math.pow((x - m)/desvPadrao, 2) * -1/2;
         return resultado;
     }
 
